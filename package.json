@@ -1,7 +1,7 @@
 {
     "name": "gulp-total-task-time",
     "version": "1.0.0",
-    "description": "A plugin to get the amount of time any task or tasks take",
+    "description": "A gulp plugin to get the amount of time any task or tasks take",
     "main": "index.js",
     "scripts": {
         "test": "gulp"
