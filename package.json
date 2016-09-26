@@ -1,0 +1,21 @@
+{
+    "name": "gulp-total-task-time",
+    "version": "1.0.0",
+    "description": "A plugin to get the amount of time any task or tasks take",
+    "main": "index.js",
+    "scripts": {
+        "test": "gulp"
+    },
+    "keywords": [
+        "gulp, task timer"
+    ],
+    "author": "Petter Ahlberg",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^1.1.3",
+        "gulp": "^3.9.1"
+    },
+    "devDependencies": {
+        "gulp-cccp": "git://github.com/PetterBoozegunk/gulp-cccp.git"
+    }
+}
