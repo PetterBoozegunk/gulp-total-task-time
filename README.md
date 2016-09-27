@@ -5,7 +5,9 @@ This plugin will add a Total time at the end of any task/tasks in a grunt like f
 Put then following code in the top of your gulpfile (before any tasks are defined).
 
 ```javascript
-require('gulp-total-task-time');
+var taskTime = require('gulp-total-task-time');
+
+taskTime.init();
 ```
 
 Running tasks will then look something like this:
